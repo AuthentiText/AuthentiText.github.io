@@ -97,7 +97,7 @@ Our experience underscores the iterative nature of machine learning projects, wh
 
 Our GitHub repository link is [AuthentiText](https://github.com/ajiteshreddy24/AuthentiText).
 
-##
+---
 Ajitesh Reddy, Venkata Ramana, Divyoth Reddy, Shivanth Reddy, Charith Reddy
 
 
