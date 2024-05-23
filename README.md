@@ -19,7 +19,9 @@ We initially used the MSR Paraphrase Dataset containing over 5,000 entries [MSR 
 
 ### 2. Word Embedding and Siamese Network
 
-We employed Word2Vec for sentence embedding and trained a Siamese Neural Network. This network has three LSTM layers for each branch (sentence and paraphrase), totaling six LSTM layers. The specific details are as follows:
+We employed Word2Vec for sentence embedding
+![Word2vec implementation](images/word2vecfunc.png)
+and trained a Siamese Neural Network. This network has three LSTM layers for each branch (sentence and paraphrase), totaling six LSTM layers. The specific details are as follows:
 
 #### Sentence Branch:
 
@@ -33,13 +35,18 @@ We employed Word2Vec for sentence embedding and trained a Siamese Neural Network
 * LSTM Layer 2: 64 units
 * LSTM Layer 3: 32 units
 
-![Siamese Neural Network](#)
+![Siamese Neural Network](images/siamesemodelimage.png)
+
+![Siamese Neural Network Implementation](images/siamesemodel.png)
 
 The contrastive loss function was used for training:
 
-![Contrastive Loss](#)
+![Contrastive Loss](images/contrastiveloss.png)
+
+![Contrastive Loss Implementation](images/loss.png)
 
 This model achieved an accuracy of 35%.
+![Siamese output](images/word2vec.png)
 
 ### 3. Improvements for Better Accuracy
 
@@ -49,9 +56,21 @@ To improve accuracy, we made several changes:
 
 * **Embedding Technique:** We replaced Word2Vec with Sentence BERT (specifically, the `paraphrase-multilingual-mpnet-base-v2` model) for word embedding. This significantly improved accuracy to 55%.
 
-![Updated Code](#)
+![Senetence Bert](images/sentencebert.png)
+
+
+  
+![Senetence Bert paraphrase-multilingual-mpnet-base-v2](images/sbpraphrase.png)
+
+![Output](images/sentencebertoutput.png)
+
+
 
 Experimenting with a different Sentence BERT model (`all-MiniLM-L12-v2`) yielded similar accuracy.
+![Contrastive Loss Implementation](images/minilm.png)
+
+![output](images/sentencebertoutput2.png)
+
 
 These adjustments demonstrate the importance of dataset and embedding techniques in Siamese Neural Network performance.
 
