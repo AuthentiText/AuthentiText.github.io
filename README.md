@@ -1,3 +1,11 @@
+## Authors
+
+- **Ajitesh Reddy**
+- **Venkata Ramana**
+- **Divyoth Reddy**
+- **Shivanth Reddy**
+- **Charith Reddy**
+
 # Paraphrase Detection using Siamese Neural Networks
 
 This document describes the development of a system to identify paraphrased content within textual data.
@@ -94,3 +102,8 @@ Despite these advancements, the model's performance can be further optimized. Fu
 * Integration of additional linguistic features
 
 Our experience underscores the iterative nature of machine learning projects, where continuous evaluation and adaptation are key to achieving optimal results.
+
+Our GitHub repository link is [AuthentiText](https://github.com/ajiteshreddy24/AuthentiText).
+
+
+
