@@ -1,4 +1,4 @@
-### AuthentiText
+# AuthentiText
 
 
 Ajitesh Reddy, Venkata Ramana, Divyoth Reddy, Shivanth Reddy, Charith Reddy
