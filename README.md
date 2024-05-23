@@ -14,7 +14,8 @@ Plagiarism is a serious concern in academia, compromising the integrity of insti
 
 ### 1. Data and Preprocessing
 
-We initially used the MSR Paraphrase Dataset containing over 5,000 entries [link to MSR dataset]. Preprocessing steps included stop word removal and sentence lemmatization.
+We initially used the MSR Paraphrase Dataset containing over 5,000 entries [MSR dataset](https://www.kaggle.com/datasets/doctri/microsoft-research-paraphrase-corpus?select=msr_paraphrase_train.txt)
+. Preprocessing steps included stop word removal and sentence lemmatization.
 
 ### 2. Word Embedding and Siamese Network
 
@@ -44,7 +45,8 @@ This model achieved an accuracy of 35%.
 
 To improve accuracy, we made several changes:
 
-* **Dataset:** We switched to the PAWS dataset available on Hugging Face [link to PAWS dataset].
+* **Dataset:** We switched to the PAWS dataset available on Hugging Face [PAWS dataset](https://huggingface.co/datasets/paws).
+
 * **Embedding Technique:** We replaced Word2Vec with Sentence BERT (specifically, the `paraphrase-multilingual-mpnet-base-v2` model) for word embedding. This significantly improved accuracy to 55%.
 
 ![Updated Code](#)
