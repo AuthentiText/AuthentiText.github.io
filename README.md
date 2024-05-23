@@ -1,3 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasks.html</title>
+<style>
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #333333;
+  font-size: 32px;
+  text-align: center;
+}
+h2 {
+  color: #555555;
+  font-size: 24px;
+  margin-top: 30px;
+}
+p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1 style="color: #4CAF50; font-size: 36px;">AuthentiText</h1>
+
+  <h2>Paraphrase Detection using Siamese Neural Networks</h2>
+
+  <p>This document describes the development of a system to identify paraphrased content within textual data.</p>
+
+  <!-- Rest of your Markdown content goes here -->
+
+  <h2>Problem Statement</h2>
+
+  <p>Accurately detecting paraphrased sentences amidst large amounts of text is a challenge. Paraphrased sentences convey the same meaning but use different wording, making traditional text-matching techniques ineffective. Sophisticated algorithms are needed to discern semantic similarity between sentences.</p>
+
+  <!-- Continue with the rest of your content -->
+
+</div>
+</body>
+</html>
+
+##AuthentiText
 # Paraphrase Detection using Siamese Neural Networks
 
 This document describes the development of a system to identify paraphrased content within textual data.
