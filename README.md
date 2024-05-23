@@ -1,9 +1,3 @@
-# AuthentiText
-
-
-Ajitesh Reddy, Venkata Ramana, Divyoth Reddy, Shivanth Reddy, Charith Reddy
-
-
 # Paraphrase Detection using Siamese Neural Networks
 
 This document describes the development of a system to identify paraphrased content within textual data.
