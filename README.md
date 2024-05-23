@@ -1,10 +1,7 @@
-## Authors
+## AuthentiText
 
-- **Ajitesh Reddy**
-- **Venkata Ramana**
-- **Divyoth Reddy**
-- **Shivanth Reddy**
-- **Charith Reddy**
+Ajitesh Reddy, Venkata Ramana, Divyoth Reddy, Shivanth Reddy, Charith Reddy
+
 
 # Paraphrase Detection using Siamese Neural Networks
 
